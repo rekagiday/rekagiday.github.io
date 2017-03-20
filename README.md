@@ -1,1 +1,2 @@
-# rekagiday.github.io
+[my CV](https://rekagiday.github.io/)
+<br>
