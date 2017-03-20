@@ -1,3 +1,12 @@
+body {
+  background-image: url("fox.png");
+  background-size: 473px 593px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-attachment: fixed;
+}
+
+
 main {
   margin: auto auto 100px;
   color: #222222;
@@ -8,11 +17,12 @@ main {
 }
 
 h1 {
-  margin: -160px auto 100px;
+  margin: 0px auto;
   font-family: 'Abril Fatface', cursive;
-  font-size: 34px;
+  font-size: 28px;
   font-weight: normal;
   line-height: 1.4em;
+  position: fixed;
 }
 
 h2 {
@@ -42,18 +52,19 @@ span {
 }
 
 img {
-  width: 85%;
-  margin: 0 7.5%;
-  border-top: 4px black solid;
+  width: 350px;
+  height: auto;
+  margin: 0 50px;
+
 }
 
 .myname {
-  font-size: 68px;
+  font-size: 52px;
   font-weight: bold;
 }
 
 .intro {
-  font-size: 18px;
+  font-size: 28px;
 }
 
 blockquote p {
