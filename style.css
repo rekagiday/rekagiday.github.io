@@ -1,13 +1,12 @@
 body {
-  background-image: url("cutefox.png");
-  background-size: 473px 593px;
+  background-image: url("circle-cropped-cv-photo.png");
+  background-size: 250px;
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: 30px 150px;
   background-attachment: fixed;
 }
 
-
-main {
+#bootstrap-overrides main {
   margin: auto auto 100px;
   color: #222222;
   text-align: left;
@@ -16,8 +15,8 @@ main {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-h1 {
-  margin: 0px auto;
+#bootstrap-overrides h1 {
+  margin: 12px;
   font-family: 'Abril Fatface', cursive;
   font-size: 28px;
   font-weight: normal;
@@ -25,46 +24,47 @@ h1 {
   position: fixed;
 }
 
-h2 {
+#bootstrap-overrides h2 {
   text-transform: uppercase;
+  font-weight: bold;
   letter-spacing: 0.15em;
 }
 
-h3 {
+#bootstrap-overrides h3 {
   font-size: 24px;
+  font-weight: bold;
   margin: 40px auto 0px;
 }
 
-h4 {
+#bootstrap-overrides h4 {
   margin-top: 5px;
-  font-style: italic;
   font-size: 15px;
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Abril Fatface', cursive;
 }
 
-p, ul {
+#bootstrap-overrides p, ul {
   line-height: 1.8em;
   list-style-type: square;
 }
 
-span {
+#bootstrap-overrides span {
   font-size: 150px;
 }
 
-img {
-  width: 350px;
-  height: auto;
-  margin: 0 50px;
 
-}
-
-.myname {
+#bootstrap-overrides .myname {
   font-size: 52px;
   font-weight: bold;
 }
 
-.intro {
-  font-size: 28px;
+#bootstrap-overrides .contacts {
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#bootstrap-overrides .intro {
+  font-size: 22px;
+  margin-top: 12px;
 }
 
 blockquote p {
@@ -74,6 +74,10 @@ blockquote p {
   margin-bottom: 40px;
   line-height: 1.5em;
   color: white;
+}
+
+p {
+  margin: 0;
 }
 
 blockquote {
@@ -101,4 +105,8 @@ hr {
     margin-left: -20px;
     border-style: solid;
     border-width: 3px;
+}
+.badge {
+      background-color:#f1f1f1;
+      border: 1px solid #000;
 }
