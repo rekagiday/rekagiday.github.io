@@ -10,150 +10,197 @@
 
   </head>
   <body id="bootstrap-overrides">
-    <h1>
-    <span class="myname">Reka Giday</span>
-    <br>
-      software engineer
-      <br><br><br><br><br><br><br><br><br><br>
-      <img src="linkedin-icon.jpg" style="width:30px;height:30px;">
-      <span class="contacts"><a href="https://www.linkedin.com/in/rekagiday/" target="_blank">linkedin.com/in/rekagiday</a></span>
-      <br>
-      <img src="github-icon.jpg" style="width:30px;height:30px;">
-      <span class="contacts"><a href="https://github.com/rekagiday" target="_blank">github.com/rekagiday</a></span>
-      <br>
-      <img src="gmail-icon.jpg" style="width:30px;height:30px;">
-      <span class="contacts"><a href="mailto:giday.r@gmail.com">giday.r@gmail.com</a></span>
-    </h1>
+    <!--Visible on XL screens-->
+    <div class="d-none d-xl-block" id="myHeader">
+      <h1>
+        <span class="myname">Reka Giday</span>
+        <br>
+        <p>software engineer</p>
+        <br>
+        <img src="circle-cropped-cv-photo.png" style="width:250px;height:250px;">
+        <br><br>
+        <img src="linkedin-icon.jpg" style="width:30px;height:30px;">
+        <span class="contacts"><a href="https://www.linkedin.com/in/rekagiday/"
+          target="_blank">linkedin.com/in/rekagiday</a></span>
+        <br>
+        <img src="github-icon.jpg" style="width:30px;height:30px;">
+        <span class="contacts"><a href="https://github.com/rekagiday"
+          target="_blank">github.com/rekagiday</a></span>
+        <br>
+        <img src="gmail-icon.jpg" style="width:30px;height:30px;">
+        <span class="contacts"><a href="mailto:giday.r@gmail.com">giday.r@gmail.com</a></span>
+      </h1>
+    </div>
+
+    <!--Visible on LG screens or smaller-->
+    <div class="header d-xl-none sticky" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-auto">
+            <span class="myname">Reka Giday</span>
+            <br>
+            <span class="role">software engineer </span>
+          </div>
+          <div class="col-md-auto">
+            <br>
+            <img src="linkedin-icon.jpg" style="width:25px;height:25px;">
+            <span class="contacts"><a href="https://www.linkedin.com/in/rekagiday/"
+              target="_blank">linkedin.com/in/rekagiday</a></span>
+            <br>
+            <img src="github-icon.jpg" style="width:25px;height:25px;">
+            <span class="contacts"><a href="https://github.com/rekagiday"
+              target="_blank">github.com/rekagiday</a></span>
+            <br>
+            <img src="gmail-icon.jpg" style="width:25px;height:25px;">
+            <span class="contacts"><a href="mailto:giday.r@gmail.com">giday.r@gmail.com</a></span>
+          </div>
+          <div class="col-1  d-none d-md-block">
+            <img src="circle-cropped-cv-photo.png" style="width:130px;height:130px;margin-top:12px;">
+          </div>
+        </div>
+      </div>
+    </div>
     <main>
-      <p class="intro"> <strong>I am a resourceful and creative developer, eager to learn new technologies and apply them in my day-to-day work.</strong>
-      <hr>
-      <h2>Experience</h2>
-      <h3>Software Engineer, Game Developer - Self Employed, Dublin</h3>
-      <h4>March 2019 - present</h4>
-      <ul>
-        <li>integral to the design and development of the mobile game “Eternal Struggle”, which was built using a custom framework with Unity game engine</li>
-        <li>
-          involved in the design and implementation of numerous game systems including skills, attributes and navigation.
-        </li>
-        <li>
-          developed new tools and features for the game engine to aid in level building and scripting
-        </li>
-        <li>
-          worked on design and scripting for skill systems, world building and enemy encounters.
-        </li>
-      </ul>
-      <p class="badge badge-light">Java 11</p>
-      <p class="badge badge-light">C#</p>
-      <p class="badge badge-light">Unity 3D</p>
-      <p class="badge badge-light">Spring</p>
-      <p class="badge badge-light">Docker</p>
-      <p class="badge badge-light">JUnit</p>
-      <p class="badge badge-light">Mockito</p>
-      <p class="badge badge-light">Git</p>
-      <p class="badge badge-light">CircleCI</p>
-
-      <h3>Java Engineer - <a href="https://www.baesystems.com/en/cybersecurity/home" target="_blank">BAE Systems Applied Intelligence</a>, Dublin</h3>
-      <h4>November 2018 - March 2019</h4>
-      <p>
-        I worked in the Customer Engineering EMEA team. My main task was to provide bug fixes and execute change requests coming from customers in the company’s main product, NetReveal.
-      </p>
-      <p class="badge badge-light">Java</p>
-      <p class="badge badge-light">ES6</p>
-      <p class="badge badge-light">Spring</p>
-      <p class="badge badge-light">Ant</p>
-      <p class="badge badge-light">svn</p>
-      <p class="badge badge-light">JBoss</p>
-      <p class="badge badge-light">WebPack</p>
-      <p class="badge badge-light">React</p>
-
-      <h3>Full Stack Software Developer - <a href="https://smartfront.eu/" target="_blank">Smartfront Ltd.</a>, Budapest</h3>
-      <h4>August 2017 - August 2018</h4>
-      <p>Focusing on customer success and needs, I built a fully customizable unique ERP system in Java, TypeScript and JavaScript. <br />
-        <b>Accomplishments:</b>
+      <div class="d-xl-none" >
+      </div>
+      <div class="content">
+        <p class="intro"> <strong>I am a resourceful and creative developer,
+          eager to learn new technologies and apply them in my day-to-day work.</strong>
+        <hr>
+        <h2>Experience</h2>
+        <h3>Software Engineer, Game Developer - Self Employed, Dublin</h3>
+        <h4>March 2019 - present</h4>
         <ul>
-          <li>built services, RESTful API-s used by several different business modules </li>
-          <li>refactored a large existing codebase according to clean code principles</li>
-          <li>learned to work in agile environment</li>
+          <li>integral to the design and development of the mobile game “Eternal Struggle”,
+            which was built using a custom framework with Unity game engine</li>
+          <li>
+            involved in the design and implementation of numerous game systems including
+            skills, attributes and navigation.
+          </li>
+          <li>
+            developed new tools and features for the game engine to aid in level
+            building and scripting
+          </li>
+          <li>
+            worked on design and scripting for skill systems, world building and enemy encounters.
+          </li>
         </ul>
+        <p class="badge badge-light">Java 11</p>
+        <p class="badge badge-light">C#</p>
+        <p class="badge badge-light">Unity 3D</p>
+        <p class="badge badge-light">Spring</p>
+        <p class="badge badge-light">Docker</p>
+        <p class="badge badge-light">JUnit</p>
+        <p class="badge badge-light">Mockito</p>
+        <p class="badge badge-light">Git</p>
+        <p class="badge badge-light">CircleCI</p>
+
+        <h3>Java Engineer - <a href="https://www.baesystems.com/en/cybersecurity/home"
+          target="_blank">BAE Systems Applied Intelligence</a>, Dublin</h3>
+        <h4>November 2018 - March 2019</h4>
+        <p>
+          I worked in the Customer Engineering EMEA team. My main task was to provide
+          bug fixes and execute change requests coming from customers in the company’s main product, NetReveal.
+        </p>
         <p class="badge badge-light">Java</p>
         <p class="badge badge-light">ES6</p>
-        <p class="badge badge-light">TypeScript</p>
-        <p class="badge badge-light">HTML5</p>
-        <p class="badge badge-light">CSS</p>
-        <p class="badge badge-light">LESS</p>
-        <p class="badge badge-light">PostgreSQL</p>
-        <p class="badge badge-light">MySQL</p>
-        <p class="badge badge-light">Git</p>
-        <p class="badge badge-light">MyBatis</p>
         <p class="badge badge-light">Spring</p>
+        <p class="badge badge-light">Ant</p>
+        <p class="badge badge-light">svn</p>
+        <p class="badge badge-light">JBoss</p>
+        <p class="badge badge-light">WebPack</p>
+        <p class="badge badge-light">React</p>
+        <h3>Full Stack Software Developer - <a href="https://smartfront.eu/"
+          target="_blank">Smartfront Ltd.</a>, Budapest</h3>
+        <h4>August 2017 - August 2018</h4>
+        <p>Focusing on customer success and needs, I built a fully customizable
+           unique ERP system in Java, TypeScript and JavaScript. <br />
+          <b>Accomplishments:</b>
+          <ul>
+            <li>built services, RESTful API-s used by several different business modules </li>
+            <li>refactored a large existing codebase according to clean code principles</li>
+            <li>learned to work in agile environment</li>
+          </ul>
+          <p class="badge badge-light">Java</p>
+          <p class="badge badge-light">ES6</p>
+          <p class="badge badge-light">TypeScript</p>
+          <p class="badge badge-light">HTML5</p>
+          <p class="badge badge-light">CSS</p>
+          <p class="badge badge-light">LESS</p>
+          <p class="badge badge-light">PostgreSQL</p>
+          <p class="badge badge-light">MySQL</p>
+          <p class="badge badge-light">Git</p>
+          <p class="badge badge-light">MyBatis</p>
+          <p class="badge badge-light">Spring</p>
+          <p class="badge badge-light">Gradle</p>
+        </p>
+        <hr>
+        <h2>Education</h2>
+        <h3>Software Developer - Green Fox Academy, Budapest</h3>
+        <h4>2017</h4>
+        <p>
+          I studied Java, OOP, data structures, version control system (Git), Spring framework
+          and I worked on an Android game with 2 classmates as our graduation project.<br />
+          <b>Accomplishments:</b>
+        </p>
+        <ul>
+          <li>worked as a part of a scrum team, actively participating in planning,
+            estimating, developing, testing and giving feedback</li>
+          <li>implemented UI elements using Fragments according to given design</li>
+          <li>developed service and data access application layers using Retrofit</li>
+          <li>designed, developed and mapped domain objects</li>
+          <li>implemented event sending and processing with Eventbus</li>
+        </ul>
+        <p class="badge badge-light">Android</p>
         <p class="badge badge-light">Gradle</p>
-      </p>
-      <hr>
-
-      <h2>Education</h2>
-      <h3>Software Developer - Green Fox Academy, Budapest</h3>
-      <h4>2017</h4>
-      <p>
-        I studied Java, OOP, data structures, version control system (Git), Spring framework
-        and I worked on an Android game with 2 classmates as our graduation project.<br />
-        <b>Accomplishments:</b>
-      </p>
-      <ul>
-        <li>worked as a part of a scrum team, actively participating in planning, estimating, developing, testing and giving feedback</li>
-        <li>implemented UI elements using Fragments according to given design</li>
-        <li>developed service and data access application layers using Retrofit</li>
-        <li>designed, developed and mapped domain objects</li>
-        <li>implemented event sending and processing with Eventbus</li>
-      </ul>
-
-      <p class="badge badge-light">Android</p>
-      <p class="badge badge-light">Gradle</p>
-      <p class="badge badge-light">Espresso</p>
-      <p class="badge badge-light">Eventbus</p>
-      <p class="badge badge-light">Retrofit</p>
-      <p class="badge badge-light">Robolectric</p>
-      <p class="badge badge-light">Git</p>
-      <p class="badge badge-light">CircleCI</p>
-      <p class="badge badge-light">Postman</p>
-
-      <hr>
-
-      <h3>Personal Characteristics</h3>
-      <p>I can balance between being a sociable and active member of a team and working individually.
-        Even though I like to tackle hard and complex tasks on my own, I also learned to ask for help when working on a hard problem.
-        Having a no-blame mindset, I focus on solving problems and moving on instead of finding out who made a mistake.
-        I am eager to learn from more experienced developers and understand their way of thinking.</p>
-
-      <hr>
-
-      <h3>Competencies</h3>
-      <ul>
-        <li><b>Quality-driven, can-do attitude:</b> I never say never just because the problem I'm facing seems unsolvable at first.
-          I enjoy finding a solution and understanding complex problems. Always seeking perfection I’m never satisfied with a half-done work or ugly code.</li>
-        <li><b>Teamwork:</b> I enjoy pair programming and I actively participate in team planning and meetings.
-          I am open-minded to different ideas and suggestions from my teammates.</li>
-        <li><b>Continuous Learning:</b> I am always excited to learn new technologies and continuously expand my skills in the fields that I’m already familiar with.</li>
-      </ul>
-
-      <hr>
-
-      <h3>Language Skills</h3>
-      <ul>
-        <li>hungarian - &#9733;	&#9733;	&#9733;	&#9733; &#9733;</li>
-        <li>english - &#9733;	&#9733;	&#9733;	&#9733; &#9734;</li>
-        <li>german - &#9733;	&#9733;	&#9733;	&#9734; &#9734;</li>
-      </ul>
-
-      <hr>
-
-      <h3>Personal interests</h3>
-      <ul>
-        <li>Board games</li>
-        <li>Hiking, geocaching</li>
-        <li>Video games</li>
-        <li>Embedded programming - Arduino</li>
-      </ul>
-      <hr />
+        <p class="badge badge-light">Espresso</p>
+        <p class="badge badge-light">Eventbus</p>
+        <p class="badge badge-light">Retrofit</p>
+        <p class="badge badge-light">Robolectric</p>
+        <p class="badge badge-light">Git</p>
+        <p class="badge badge-light">CircleCI</p>
+        <p class="badge badge-light">Postman</p>
+        <hr>
+        <h3>Personal Characteristics</h3>
+        <p>I can balance between being a sociable and active member of a team and
+          working individually. Even though I like to tackle hard and complex tasks
+          on my own, I also learned to ask for help when working on a hard problem.
+          Having a no-blame mindset, I focus on solving problems and moving on
+          instead of finding out who made a mistake. I am eager to learn from more
+          experienced developers and understand their way of thinking.</p>
+        <hr>
+        <h3>Competencies</h3>
+        <ul>
+          <li><b>Quality-driven, can-do attitude:</b> I never say never just
+            because the problem I'm facing seems unsolvable at first. I enjoy
+            finding a solution and understanding complex problems. Always seeking
+            perfection I’m never satisfied with a half-done work or ugly code.
+          </li>
+          <li><b>Teamwork:</b> I enjoy pair programming and I actively participate
+            in team planning and meetings. I am open-minded to different ideas and
+            suggestions from my teammates.
+          </li>
+          <li><b>Continuous Learning:</b> I am always excited to learn new
+            technologies and continuously expand my skills in the fields that
+            I’m already familiar with.
+          </li>
+        </ul>
+        <hr>
+        <h3>Language Skills</h3>
+        <ul>
+          <li>hungarian - &#9733;	&#9733;	&#9733;	&#9733; &#9733;</li>
+          <li>english - &#9733;	&#9733;	&#9733;	&#9733; &#9734;</li>
+          <li>german - &#9733;	&#9733;	&#9733;	&#9734; &#9734;</li>
+        </ul>
+        <hr>
+        <h3>Personal interests</h3>
+        <ul>
+          <li>Board games</li>
+          <li>Hiking, geocaching</li>
+          <li>Video games</li>
+          <li>Embedded programming - Arduino</li>
+        </ul>
+      </div>
     </main>
   </body>
 </html>

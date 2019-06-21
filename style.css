@@ -1,11 +1,3 @@
-body {
-  background-image: url("circle-cropped-cv-photo.png");
-  background-size: 250px;
-  background-repeat: no-repeat;
-  background-position: 30px 150px;
-  background-attachment: fixed;
-}
-
 #bootstrap-overrides main {
   margin: auto auto 100px;
   color: #222222;
@@ -51,10 +43,19 @@ body {
   font-size: 150px;
 }
 
-
 #bootstrap-overrides .myname {
   font-size: 52px;
   font-weight: bold;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: normal;
+}
+
+#bootstrap-overrides .role {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: normal;
+  line-height: 1.4em;
 }
 
 #bootstrap-overrides .contacts {
@@ -65,6 +66,22 @@ body {
 #bootstrap-overrides .intro {
   font-size: 22px;
   margin-top: 12px;
+}
+
+#bootstrap-overrides .content {
+  padding: 16px;
+}
+
+#bootstrap-overrides .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+}
+
+.sticky + .content {
+  padding-top: 102px;
 }
 
 blockquote p {
@@ -106,6 +123,7 @@ hr {
     border-style: solid;
     border-width: 3px;
 }
+
 .badge {
       background-color:#f1f1f1;
       border: 1px solid #000;
